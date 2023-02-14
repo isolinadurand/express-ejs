@@ -5,10 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css"/>
-    <title>Sección registro</title>
+    <title>users List</title>
 </head>
-<body>
+<body class="body-userList">
     <%- include('../partials/header.ejs') %>
-    <h2>ESTAMOS EN EL REGISTER</h2>
+    <h1>User List</h1>
+    <ul>
+        <% for (let i=0 ; i < users.length;  i++) { %>
+        <li>
+            <%= users[i] %>
+        </li>
+        <% } %>
+        
+
+    </ul>
 </body>
 </html>
