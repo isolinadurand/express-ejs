@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 180vh;
+    font-family: sans-serif;
+    background-color: #e6e6e6;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: tomato;
+}
+img{
+    width: 40%;
+}
