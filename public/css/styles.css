@@ -39,3 +39,9 @@ a{
 .form{
     text-align: left;
 }
+.img-not-found{
+    
+    background-image: url('../images/errornotfound.jpg');
+    background-repeat: no-repeat;
+    
+}
