@@ -9,6 +9,22 @@
 </head>
 <body>
     <%- include('../partials/header.ejs') %>
-    <h2>ESTAMOS EN EL REGISTER</h2>
+    <h2>REGISTER</h2>
+    <form class="form" action="/users/register" method="POST">
+        <label for = "nombre">Nombre:
+            <input type="text" name="nombre">
+        </label>
+        <br>
+        <label for = "edad">Edad:
+            <input type="text" name="edad">
+        </label>
+        <br>
+        <label for = "email">Email:
+            <input type="text" name="email">
+        </label>
+        <br>
+        <input type="submit" value="Registrar">
+    </form>
+
 </body>
 </html>

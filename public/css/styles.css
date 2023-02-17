@@ -32,3 +32,10 @@ nav ul li {
 a{
     text-decoration: none;
 }
+.search-bar-title{
+    text-align: left;
+    color: black
+}
+.form{
+    text-align: left;
+}
