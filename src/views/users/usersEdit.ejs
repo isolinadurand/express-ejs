@@ -11,8 +11,14 @@
     <%- include('../partials/header.ejs') %>
     <h2>Edit USER <%= userToEdit.name %></h2>
     <form class="form" method="POST" action="/users/:userId/edit?_method=PUT"  >
-        <label for = "nombre">Nombre:
-            <input type="text" name="nombre" value="<%=userToEdit.name %>">
+        <label for = "name">Nombre:
+            <input type="text" name="name" value="<%=userToEdit.name %>">
+        </label>
+        <label for = "edad">Edad:
+            <input type="text" name="edad" value="<%=userToEdit.edad %>">
+        </label>
+        <label for = "email">Nombre:
+            <input type="text" name="email" value="<%=userToEdit.email %>">
         </label>
 
         <br>
